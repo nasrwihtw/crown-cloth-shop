@@ -3,7 +3,7 @@ import Button from "../button/button.component";
 import { CartContext } from "../context/cart.context";
 import { useContext } from "react";
 
-const ProudctCard = ({ product }) => {
+const ProductCard = ({ product }) => {
   const { name, price, imageUrl } = product;
   const { addItemToCart } = useContext(CartContext);
   const addProductToCart = () => addItemToCart(product);
@@ -21,4 +21,4 @@ const ProudctCard = ({ product }) => {
   );
 };
 
-export default ProudctCard;
+export default ProductCard;
