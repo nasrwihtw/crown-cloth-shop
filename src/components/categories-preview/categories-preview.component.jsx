@@ -9,6 +9,7 @@ const CategoriesPreview = () => {
     <>
       {Object.keys(categoriesMap).map((title) => {
 
+
         const product = categoriesMap[title];
         return (
           <CategoryPreview key={title} title={title} products={product}/>
