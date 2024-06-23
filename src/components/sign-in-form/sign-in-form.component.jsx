@@ -62,7 +62,7 @@ const SignInForm = () => {
         />
         <FormInput
           label="Password"
-          type="text"
+          type="password"
           required
           onChange={handleChange}
           name="password"
